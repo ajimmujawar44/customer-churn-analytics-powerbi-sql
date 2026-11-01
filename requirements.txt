@@ -1,0 +1,5 @@
+# Only needed to run scripts/clean_data.py (optional check of the SQL cleaning).
+# The dashboard itself needs Power BI Desktop (Windows) and a SQL database, not Python.
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1

@@ -1,0 +1,132 @@
+{
+  "name": "RetainIQ Dark",
+  "dataColors": [
+    "#FF5A5F",
+    "#2DD4BF",
+    "#F59E0B",
+    "#3B82F6",
+    "#A78BFA",
+    "#F472B6",
+    "#34D399",
+    "#94A3B8"
+  ],
+  "background": "#131C2E",
+  "foreground": "#E5E7EB",
+  "tableAccent": "#FF5A5F",
+  "good": "#2DD4BF",
+  "neutral": "#F59E0B",
+  "bad": "#FF5A5F",
+  "maximum": "#FF5A5F",
+  "center": "#F59E0B",
+  "minimum": "#2DD4BF",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#E5E7EB"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#E5E7EB"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#94A3B8"
+    }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0B1220"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0B1220"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#131C2E"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#243049"
+              }
+            },
+            "radius": 8
+          }
+        ],
+        "title": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#E5E7EB"
+              }
+            },
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#94A3B8"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#94A3B8"
+              }
+            }
+          }
+        ],
+        "gridlineStyle": [
+          {
+            "gridlineColor": {
+              "solid": {
+                "color": "#243049"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

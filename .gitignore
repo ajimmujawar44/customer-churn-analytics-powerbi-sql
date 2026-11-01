@@ -1,0 +1,49 @@
+# ---------- Power BI ----------
+# Keep the final .pbix (powerbi/Customer_Churn_Dashboard.pbix). Ignore backups and cache.
+*.pbix.bak
+*.pbix.tmp
+.pbi/
+*.pbi.bak
+AutoRecovery/
+
+# ---------- SQL databases ----------
+# Never commit database files or backups (large, and not needed to reproduce the project)
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.sqlite
+*.db
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---------- Secrets ----------
+.env
+*.env
+credentials*.json
+
+# ---------- Video / large media (host on YouTube or drag into the README on GitHub instead) ----------
+*.mp4
+*.mov
+*.mkv
+*.avi
+
+# ---------- Office temp files ----------
+~$*
+*.tmp
+.~lock.*
+
+# ---------- OS / editor ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
